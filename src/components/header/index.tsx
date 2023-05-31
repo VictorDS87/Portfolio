@@ -17,7 +17,7 @@ export function Header() {
                 </Routes>
 
                 <SocialMedia>
-                    <li><a href=""><LinkedinLogo /></a></li>
+                    <li><a href="https://www.linkedin.com/in/developervictor/"><LinkedinLogo /></a></li>
                     <li><a href=""><FacebookLogo /></a></li>
                     <li><a href=""><InstagramLogo  /></a></li>
                 </SocialMedia>
