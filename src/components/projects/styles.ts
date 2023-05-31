@@ -67,6 +67,7 @@ export const ButtonProjects = styled.h2`
 
 export const Button = styled.button`
     border-radius: 60px;
+    
 
     color: #FFFFFF;
     cursor: pointer;
@@ -90,7 +91,9 @@ export const LiveButton = styled(Button)`
         filter: brightness(1.2);
     }
 `
+
 export const CheckButton = styled(Button)`
+    height: 60px;
     padding: 0 2rem 0 2rem;
 
     background: transparent;

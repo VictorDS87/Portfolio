@@ -24,7 +24,9 @@ export function Projects() {
                     </InfoProject>
                     <ButtonProjects>
                         <LiveButton disabled>Teste ao vivo</LiveButton>
-                        <CheckButton>Checar no Github</CheckButton>
+                        <a href="https://github.com/VictorDS87/Coffe-Delivery">
+                            <CheckButton>Checar no Github</CheckButton>
+                        </a>
                     </ButtonProjects>
                 </Project>
 
@@ -38,7 +40,9 @@ export function Projects() {
                     </InfoProject>
                     <ButtonProjects>
                         <LiveButton disabled>Teste ao vivo</LiveButton>
-                        <CheckButton>Checar no Github</CheckButton>
+                        <a href="https://github.com/VictorDS87/live-chat">
+                            <CheckButton>Checar no Github</CheckButton>
+                        </a>
                     </ButtonProjects>
                 </Project>
 
@@ -52,7 +56,10 @@ export function Projects() {
                     </InfoProject>
                     <ButtonProjects>
                         <LiveButton disabled>Teste ao vivo</LiveButton>
-                        <CheckButton>Checar no Github</CheckButton>
+
+                        <a href="https://github.com/VictorDS87/Task-Indicator">
+                            <CheckButton>Checar no Github</CheckButton>
+                        </a>
                     </ButtonProjects>
                 </Project>
 
@@ -66,7 +73,44 @@ export function Projects() {
                     </InfoProject>
                     <ButtonProjects>
                         <LiveButton disabled>Teste ao vivo</LiveButton>
-                        <CheckButton>Checar no Github</CheckButton>
+
+                        <a href="https://github.com/VictorDS87/Book-Wise">
+                            <CheckButton>Checar no Github</CheckButton>
+                        </a>
+                    </ButtonProjects>
+                </Project>
+
+                <Project>
+                    <ImageProject>
+                        <img src='' alt="" />
+                    </ImageProject>
+                    <InfoProject>
+                        <p>HangMan</p>
+                        <span>Jogo ta forca feito inteiramente em python. Não fiz nenhuma tela para o programa, é possivel jogar ele pelo terminal. As palavras estão disponiveis em um arquivo. Obs: O programa está em inglês</span>
+                    </InfoProject>
+                    <ButtonProjects>
+                        <LiveButton disabled>Teste ao vivo</LiveButton>
+
+                        <a href="https://github.com/VictorDS87/HangMan">
+                            <CheckButton>Checar no Github</CheckButton>
+                        </a>
+                    </ButtonProjects>
+                </Project>
+
+                <Project>
+                    <ImageProject>
+                        <img src='' alt="" />
+                    </ImageProject>
+                    <InfoProject>
+                        <p>Number in full</p>
+                        <span>Programa para converter o número digitado em um numero por extenso. O programa foi feito inteiramente em python e só possível usar ele pelo terminal. Obs:  O programa está em inglês</span>
+                    </InfoProject>
+                    <ButtonProjects>
+                        <LiveButton disabled>Teste ao vivo</LiveButton>
+
+                        <a href="https://github.com/VictorDS87/number-in-full">
+                            <CheckButton>Checar no Github</CheckButton>
+                        </a>
                     </ButtonProjects>
                 </Project>
                 
