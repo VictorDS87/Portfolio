@@ -1,10 +1,17 @@
 import CircleImg from '../../assets/summary/circle.svg'
 import Circle2Img from '../../assets/summary/circle2.svg'
+
+import { saveAs } from 'file-saver';
+
+import cv from '../../../public/Curriculo-04-2023.pdf'
+
 import { Cv, Introduction, ProfileImage, Span, SummaryContainer } from './styles'
+import { Link } from 'react-router-dom';
 
 export function Summary() {
+
     return (
-        
+
         <SummaryContainer style={{backgroundImage: `url(${CircleImg}), url(${Circle2Img})`}}>
             <div>
                 <Introduction>
@@ -17,7 +24,14 @@ export function Summary() {
                 </Span>
 
                 <Cv>
-                    <button>Download CV</button>
+                    <a
+                    href="/Curriculo.pdf"
+                    download="Curriculo"
+                    target="_blank"
+                    rel="noreferrer"
+                    >
+                        <button>Download CV</button>
+                    </a>
                 </Cv>
             </div>
 
