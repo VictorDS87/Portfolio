@@ -41,7 +41,7 @@ export const ImageProject = styled.div`
 export const InfoProject = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: center;
+    text-align: -webkit-center;
     p {
         font-size: 20px;
         color: #ffffff;
