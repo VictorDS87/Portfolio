@@ -2,8 +2,8 @@ import { Chronology, ChronologyLine, ChronologySummary, Date, H5 } from "./style
 
 export function AboutMe() {
     return (
-        <div>
-            <H5>About me</H5>
+        <div id="aboutme">
+            <H5>Sobre mim</H5>
             <div>
             <table>
                 <tr>

@@ -5,10 +5,8 @@ import { Cv, Introduction, ProfileImage, Span, SummaryContainer } from './styles
 
 
 export function Summary() {
-
     return (
-
-        <SummaryContainer style={{backgroundImage: `url(${CircleImg}), url(${Circle2Img})`}}>
+        <SummaryContainer id='summary' style={{backgroundImage: `url(${CircleImg}), url(${Circle2Img})`}}>
             <div>
                 <Introduction>
                     {/* separar em 3 o p para dar as 3 cores do gradient */}

@@ -2,7 +2,7 @@ import { AdditionalTechnologie, Advanced, Beginner, Circle, ContainerAdditionalT
 
 export function Technologies() {
     return (
-        <ContainerTechnologies>
+        <ContainerTechnologies id="technologies">
             <H3>Tecnologias</H3>
 
             <section id="advanced">

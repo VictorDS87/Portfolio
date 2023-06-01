@@ -1,4 +1,22 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const moveButton = keyframes`
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(5px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  75% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+`;
 
 export const Nav = styled.ul`
     list-style: none;
@@ -7,6 +25,7 @@ export const Nav = styled.ul`
 
     color: #FFFFFF;
 
+    transition: 1s;
     li {
         
         font-size: 'Poppins', sans-serif;
@@ -14,7 +33,24 @@ export const Nav = styled.ul`
     div {
         display: flex;
     }
-    `
+`
+
+export const ReturnFromNav = styled.div`
+background: blueviolet;
+    border-radius: 20px;
+    padding: 0 0.1rem 0 0.1rem;
+
+    animation: ${moveButton} 3.5s linear infinite;
+    filter: drop-shadow(rgba(0, 178, 255, 1.25) 0px 20px 50px);
+    a {
+        svg {
+            color: white;
+        }
+
+        &:hover {
+        }
+    }
+`
 
 export const Me = styled.div`
     font-size: 30px;

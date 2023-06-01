@@ -3,7 +3,7 @@ import { FooterContainer } from "./styles";
 
 export function Footer() {
     return (
-        <FooterContainer>
+        <FooterContainer id="footer">
             <p>Sinta-se livre para me contatar</p>
             <p>victordonizete65@gmail.com</p>
 

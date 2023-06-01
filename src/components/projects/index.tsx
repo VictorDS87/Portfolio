@@ -6,7 +6,7 @@ import todoImg from '../../assets/projects/todo.png'
 import bookwiseImg from '../../assets/projects/bookwise.png'
 export function Projects() {
     return (
-        <ContainerProjects>
+        <ContainerProjects id="projects">
             <H2>Projetos</H2>
             <div style={{
                 display: 'flex',
