@@ -28,22 +28,24 @@ export function App() {
   
     useEffect(() => {
       const item = itemRef.current;
-  
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-          } else {
-            entry.target.classList.remove('show');
-          }
+      
+      if(item) {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('show');
+            } else {
+              entry.target.classList.remove('show');
+            }
+          });
         });
-      });
-  
-      observer.observe(item);
-  
-      return () => {
-        observer.unobserve(item);
-      };
+    
+        observer.observe(item);
+    
+        return () => {
+          observer.unobserve(item);
+        };
+      }
     }, []);
   
     return <StyledItem ref={itemRef}>{children}</StyledItem>;
