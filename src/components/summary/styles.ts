@@ -124,6 +124,7 @@ export const Span = styled.div`
         color: rgba(146, 158, 176, 1)
     }
 `
+
 export const Cv = styled.div`
     margin-top: 85px;
     button {

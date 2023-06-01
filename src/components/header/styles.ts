@@ -36,14 +36,21 @@ export const Nav = styled.ul`
 `
 
 export const ReturnFromNav = styled.div`
-background: blueviolet;
+    background: blueviolet;
     border-radius: 20px;
-    padding: 0 0.1rem 0 0.1rem;
+    padding: 0.2rem 0.3rem 0 0.3rem;
 
-    animation: ${moveButton} 3.5s linear infinite;
+    /* Gradient3 */
+
+    background: linear-gradient(326.6deg, #13ADC7 21.25%, #6978D1 58.73%, #945DD6 77.47%);
+    /* Neon for Button */
+
+    box-shadow: 0px 10px 30px rgba(0, 178, 255, 0.35);
+
     filter: drop-shadow(rgba(0, 178, 255, 1.25) 0px 20px 50px);
     a {
         svg {
+            animation: ${moveButton} 3.5s linear infinite;
             color: white;
         }
 
