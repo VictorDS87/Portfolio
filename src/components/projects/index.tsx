@@ -69,7 +69,7 @@ export function Projects() {
                     </ImageProject>
                     <InfoProject>
                         <p>Book Wise</p>
-                        <span>Site similar a uma rede social, mas focada em livros, podendo dar sua review sobre um livro em especifico, ou marcar algum como lido. tecnologias usadas são React, Javascript, html, css, json server</span>
+                        <span>Site similar a uma rede social, mas focada em livros. No front end as tecnologias usadas foram React, Javascript, html e css, já para o backend nodejs e mongodb como banco de dados</span>
                     </InfoProject>
                     <ButtonProjects>
                         <LiveButton disabled>Teste ao vivo</LiveButton>

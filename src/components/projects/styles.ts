@@ -57,10 +57,8 @@ export const InfoProject = styled.div`
         word-break: break-word;
     }
 `
-export const ButtonProjects = styled.h2`
-    font-size: 30px;
-    color: #ffffff;
-    
+export const ButtonProjects = styled.div`
+    margin: 1rem 0;
     display: flex;
     gap: 1rem;
 `
