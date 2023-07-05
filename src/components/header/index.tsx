@@ -1,6 +1,6 @@
 import { Me, Nav, ReturnFromNav, Routes, SocialMedia } from "./styles";
 
-import { ArrowUp, FacebookLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
+import { ArrowUp, FacebookLogo, GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
 
 export function Header() {
     return (
@@ -27,8 +27,7 @@ export function Header() {
 
                 <SocialMedia>
                     <li><a href="https://www.linkedin.com/in/developervictor/"><LinkedinLogo /></a></li>
-                    <li><a href=""><FacebookLogo /></a></li>
-                    <li><a href=""><InstagramLogo  /></a></li>
+                    <li><a href="https://github.com/VictorDS87"><GithubLogo /></a></li>
                 </SocialMedia>
             </Nav>
         </>
