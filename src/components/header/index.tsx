@@ -1,6 +1,6 @@
 import { Me, Nav, ReturnFromNav, Routes, SocialMedia } from "./styles";
 
-import { ArrowUp, FacebookLogo, GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
+import { ArrowUp, GithubLogo, LinkedinLogo } from "phosphor-react";
 
 export function Header() {
     return (

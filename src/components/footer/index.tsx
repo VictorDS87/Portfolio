@@ -1,4 +1,4 @@
-import { FacebookLogo, GithubLogo, InstagramLogo, LinkedinLogo } from "phosphor-react";
+import { GithubLogo, LinkedinLogo } from "phosphor-react";
 import { FooterContainer } from "./styles";
 
 export function Footer() {
