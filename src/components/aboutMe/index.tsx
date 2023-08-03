@@ -3,7 +3,7 @@ import { Chronology, ChronologyLine, ChronologySummary, Date, H5 } from "./style
 export function AboutMe() {
     return (
         <div id="aboutme">
-            <H5>Sobre mim</H5>
+            <H5 tabIndex={0}>Sobre mim</H5>
             <div>
             <table>
                 <tbody>
@@ -24,36 +24,33 @@ export function AboutMe() {
                         </td>
                         <td>
                             <Chronology></Chronology>
-                            <div></div>
                         </td>
                         <td>
                             <Chronology></Chronology>
-                            <div></div>
                         </td>
                         <td>
                             <Chronology></Chronology>
-                            <div></div>
                         </td>
                     </tr>
 
                     <tr>
                         <ChronologySummary>
-                            <p>
+                            <p tabIndex={0}>
                                 Inicio da faculdade de análise e desenvolvimento de sistemas
                             </p>
                         </ChronologySummary>
                         <ChronologySummary>
-                            <p>
+                            <p tabIndex={0}>
                                 Comecei a aprender sobre front end, sendo mais especifico, comecei a aprender mais sobre html, css, javascript e um pouco de python
                             </p>
                         </ChronologySummary>
                         <ChronologySummary>
-                            <p>
+                            <p tabIndex={0}>
                                 Comecei a estudar ReactJs e NodeJs via os cursos da rocketseat, para aprimorar meu nivel como programador frontEnd e backEnd, em busca de me tornar um fullstack
                             </p>
                         </ChronologySummary>
                         <ChronologySummary>
-                            <p>
+                            <p tabIndex={0}>
                                 Concluí a faculdade de análise e desenvolvimento de sistemas, além disso também aprimorei tanto minhas hard skills quanto as soft skills
                             </p>
                         </ChronologySummary>

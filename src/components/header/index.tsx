@@ -11,12 +11,12 @@ export function Header() {
                     top: '500px',
                     left: '88%'
                 }}>
-                    <a href="#nav">
+                    <a tabIndex={-1} href="#nav">
                         <ArrowUp size={32} />
                     </a>
                 </ReturnFromNav>
                 <Me>
-                    <li><strong>Eu Sou Victor</strong></li>
+                    <li><strong tabIndex={0}>Eu Sou Victor</strong></li>
                 </Me>
 
                 <Routes>
@@ -26,8 +26,8 @@ export function Header() {
                 </Routes>
 
                 <SocialMedia>
-                    <li><a href="https://www.linkedin.com/in/developervictor/"><LinkedinLogo /></a></li>
-                    <li><a href="https://github.com/VictorDS87"><GithubLogo /></a></li>
+                    <li aria-label="Acessar linkedin do victor"><a href="https://www.linkedin.com/in/developervictor/"><LinkedinLogo /></a></li>
+                    <li aria-label="Acessar github do victor"><a href="https://github.com/VictorDS87"><GithubLogo /></a></li>
                 </SocialMedia>
             </Nav>
         </>

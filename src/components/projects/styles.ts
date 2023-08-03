@@ -31,6 +31,12 @@ export const Project = styled.div`
 
     background-clip: padding-box, border-box;
     background-origin: padding-box, border-box;
+
+    &:hover {
+        transition: 0.3s;
+        filter: drop-shadow(rgba(0, 178, 255, .25) 0px 20px 50px);
+        scale: 1.02;
+    }
 `
 export const ImageProject = styled.div`
     img {
@@ -87,6 +93,10 @@ export const LiveButton = styled(Button)`
     transition: .5s;
     &:hover {
         filter: brightness(1.2);
+    }
+
+    &:disabled {
+        filter: brightness(0.5);
     }
 `
 

@@ -68,24 +68,19 @@ export const SummaryContainer = styled.div`
     background-position-y: 100px, 180px;
 
     &:hover {
-        div {
-        }
         animation: ${horizontalMovement} 3.5s linear infinite;
-        img {
-            filter: grayscale(0%);
-        }
     }
 `
 
 export const ProfileImage = styled.div`
 
-    height: 657px;
+    height: 308px;
     width: 657px;
     padding: 6rem;
     margin-left: -22rem;
     
     div {
-        filter: drop-shadow(0px 20px 50px rgba(0, 178, 255, 0.25));
+      filter: drop-shadow(0px 20px 50px rgba(0, 178, 255, 0.25));
     }
     img {
         position: relative;
@@ -102,10 +97,13 @@ export const ProfileImage = styled.div`
     }
     
     &:hover {
-        animation: ${horizontalMovement} 3.5s linear infinite;
+      animation: ${horizontalMovement} 3.5s linear infinite;
+
+      div {
         img {
-            filter: grayscale(0%);
+          filter: grayscale(0%);
         }
+      }
     }
 `
 

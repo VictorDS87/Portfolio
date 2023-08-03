@@ -30,11 +30,13 @@ export const Chronology = styled.div`
 
 export const ChronologyLine = styled.div`
     background: white;
-    width: 845px;  // 285px para a linha cronologica de cada ano
     padding: 0.2rem;
     position: absolute;
     z-index: -118;
     border-radius: 100px;
+
+    width: 100%;
+    max-width: 1080px;
 `
 
 export const ChronologySummary = styled.td`

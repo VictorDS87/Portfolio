@@ -10,11 +10,11 @@ export function Summary() {
             <div>
                 <Introduction>
                     {/* separar em 3 o p para dar as 3 cores do gradient */}
-                    <p>Olá, meu nome é Victor,</p> 
-                    <p>sou um desenvolvedor fullstack</p>
+                    <p tabIndex={0}>Olá, meu nome é Victor,</p> 
+                    <p tabIndex={0}>sou um desenvolvedor fullstack</p>
                 </Introduction>
                 <Span>
-                    <span>Programador fullstack, com foco em front-end, buscando uma oportunidade de por meu conhecimento em prática</span>
+                    <span tabIndex={0}>Programador fullstack, com foco em front-end, buscando uma oportunidade de por meu conhecimento em prática</span>
                 </Span>
 
                 <Cv>
@@ -23,6 +23,7 @@ export function Summary() {
                     download="Curriculo"
                     target="_blank"
                     rel="noreferrer"
+                    tabIndex={-1}
                     >
                         <button>Download CV</button>
                     </a>
@@ -30,8 +31,8 @@ export function Summary() {
             </div>
 
             <ProfileImage >
-                <div>
-                    <img src="https://avatars.githubusercontent.com/u/117544733?s=400&u=4965effa97bb926aa33e8d3384babe57dd7830f8&v=4" alt="" />
+                <div >
+                    <img tabIndex={0} aria-label="foto do victor" src="https://avatars.githubusercontent.com/u/117544733?s=400&u=4965effa97bb926aa33e8d3384babe57dd7830f8&v=4" alt="" />
                 </div>
             </ProfileImage>
         </SummaryContainer>

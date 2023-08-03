@@ -21,6 +21,9 @@ const brightness = keyframes`
 
 export const ContainerTechnologies = styled.div`
     margin-top: 4rem;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
 `
 export const H3 = styled.h3`
     color: rgba(255, 255, 255, 1);
@@ -37,6 +40,14 @@ export const H4 = styled.h3`
 
 export const MainTechnologies = styled.div`
     margin-top: 1.5rem;
+
+    div {
+        span {
+            color: #fff;
+
+            font-size: 0.875rem;
+        }
+    }
 `
 
 export const NameTechnologies = styled.h3`
