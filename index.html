@@ -15,11 +15,17 @@
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  // gtag('js', new Date());
 
   gtag('config', 'G-Y9YVYRJ9JG');
 </script>
   <body>
+    <script>
+      document.getElementById("clickMe").addEventListener("click", function () {
+          gtag("event", "click", {
+          });
+      });
+      </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
