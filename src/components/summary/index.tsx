@@ -2,11 +2,25 @@ import CircleImg from '../../assets/summary/circle.svg'
 import Circle2Img from '../../assets/summary/circle2.svg'
 
 import { Cv, Introduction, ProfileImage, Span, SummaryContainer } from './styles'
+import ReactGA from 'react-ga';
 
-
+ReactGA.initialize('G-Y9YVYRJ9JG');
 export function Summary() {
+    const handleButtonClick = () => {
+        ReactGA.event({
+          category: 'Botao',
+          action: 'Clique',
+          label: 'Botao de Contagem de Visitantes Clicado'
+        });
+      };
+      
+      const contarUsuario = () => {
+        // Chame a função handleButtonClick dentro da função contarUsuario
+        handleButtonClick();
+      };
     return (
         <SummaryContainer id='summary' style={{backgroundImage: `url(${CircleImg}), url(${Circle2Img})`}}>
+            <button onClick={() => {contarUsuario}}></button>
             <div>
                 <Introduction>
                     {/* separar em 3 o p para dar as 3 cores do gradient */}
