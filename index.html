@@ -22,9 +22,11 @@
   <body>
     <script>
       document.getElementById("clickMe").addEventListener("click", function () {
-          gtag("event", "click", {
-          });
+      gtag("event", "click", {
+        event_category: "Botão",
+        event_label: "Botão de Clique"
       });
+    });
       </script>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
