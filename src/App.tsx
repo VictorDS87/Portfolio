@@ -8,6 +8,7 @@ import { Footer } from './components/footer'
 import { ReactNode, useEffect, useRef } from 'react'
 import styled from 'styled-components'
 
+import ReactPixel from 'react-facebook-pixel';
 const StyledItem = styled.div`
   opacity: 0;
   transition: opacity 1.5s;
@@ -20,7 +21,9 @@ interface ChildrenComponent {
   children: ReactNode
 }
 
+
 export function App() {
+  ReactPixel.init('967655347833010');
 
   function OpacityEffect ({ children }: ChildrenComponent) {
     // effect
