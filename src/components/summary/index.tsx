@@ -4,25 +4,11 @@ import Circle2Img from '../../assets/summary/circle2.svg'
 import { Cv, Introduction, ProfileImage, Span, SummaryContainer } from './styles'
 import ReactGA from 'react-ga';
 
-<<<<<<< HEAD
 ReactGA.initialize('G-Y9YVYRJ9JG');
 export function Summary() {
     const handleButtonClick = () => {
         ReactGA.event({
-=======
-import {initializeGA, trackEvent} from '../../config/googleconfig'
-import { useEffect } from 'react';
 
-export function Summary() {
-
-    useEffect(() => {
-        initializeGA(); // Inicialize o Google Analytics uma vez, talvez no componentDidMount
-      }, []);
-    
-      const handleButtonClick = () => {
-        // Rastrear o evento de clique no botão
-        trackEvent({
->>>>>>> b29375d5b7669e15f29b9b8ddafbd57b7e49625e
           category: 'Botao',
           action: 'Clique',
           label: 'Botao de Contagem de Visitantes Clicado'
