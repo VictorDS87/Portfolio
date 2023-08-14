@@ -2,17 +2,11 @@ import CircleImg from '../../assets/summary/circle.svg'
 import Circle2Img from '../../assets/summary/circle2.svg'
 
 import { Cv, Introduction, ProfileImage, Span, SummaryContainer } from './styles'
-import ReactPixel from 'react-facebook-pixel';
 
 export function Summary() {
-    const handleButtonClick = () => {
-        // Rastreia o evento quando o botão é clicado
-        ReactPixel.track('button_click');
-      };
     
     return (
         <SummaryContainer id='summary' style={{backgroundImage: `url(${CircleImg}), url(${Circle2Img})`}}>
-            <button onClick={() => {handleButtonClick}}></button>
             <div>
                 <Introduction>
                     {/* separar em 3 o p para dar as 3 cores do gradient */}
