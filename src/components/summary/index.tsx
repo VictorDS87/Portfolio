@@ -3,19 +3,27 @@ import Circle2Img from '../../assets/summary/circle2.svg'
 
 import { Cv, Introduction, ProfileImage, Span, SummaryContainer } from './styles'
 
-import ReactGA from 'react-ga';
+import {initializeGA, trackEvent} from '../../config/googleconfig'
+import { useEffect } from 'react';
 
 export function Summary() {
-    function finished() {
-        ReactGA.event({
-            category: 'Botao',
-            action: 'Clique',
-            label: 'Botao de Contagem de Visitantes Clicado'
-          });
-    }
 
+    useEffect(() => {
+        initializeGA(); // Inicialize o Google Analytics uma vez, talvez no componentDidMount
+      }, []);
+    
+      const handleButtonClick = () => {
+        // Rastrear o evento de clique no botão
+        trackEvent({
+          category: 'Botao',
+          action: 'Clique',
+          label: 'Botao de Contagem de Visitantes Clicado'
+        });
+      };
+    
     return (
         <SummaryContainer id='summary' style={{backgroundImage: `url(${CircleImg}), url(${Circle2Img})`}}>
+            <button onClick={() => {handleButtonClick()}}></button>
             <div>
                 <Introduction>
                     {/* separar em 3 o p para dar as 3 cores do gradient */}
@@ -38,7 +46,6 @@ export function Summary() {
                     </a>
                 </Cv>
             </div>
-            <button onClick={() => {finished()}}></button>
             <ProfileImage >
                 <div >
                     <img tabIndex={0} aria-label="foto do victor" src="https://avatars.githubusercontent.com/u/117544733?s=400&u=4965effa97bb926aa33e8d3384babe57dd7830f8&v=4" alt="" />
