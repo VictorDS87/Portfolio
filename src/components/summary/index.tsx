@@ -7,7 +7,6 @@ import ReactGA from 'react-ga';
 
 export function Summary() {
     function finished() {
-        event.preventDefault();
         ReactGA.event({
             category: 'Botao',
             action: 'Clique',
