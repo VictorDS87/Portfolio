@@ -2,7 +2,6 @@ import { ButtonProjects, CheckButton, ContainerProjects, H2, ImageProject, InfoP
 
 import coffeDeliveryImg from '../../assets/projects/coffe-delivery-home.png'
 import chatImg from '../../assets/projects/chat.png'
-import todoImg from '../../assets/projects/todo.png'
 import bookwiseImg from '../../assets/projects/bookwise.png'
 export function Projects() {
     return (
