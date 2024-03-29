@@ -82,7 +82,20 @@ export function Technologies() {
                         <span aria-label="O meu nível com essa linguagem é intermediário" tabIndex={0}>Intermediário</span>
                     </div>
                 </MainTechnologies>
-
+                <MainTechnologies>
+                    <NameTechnologies tabIndex={0}>Python</NameTechnologies>
+                    
+                    <div style={{
+                        display: 'flex',
+                        gap: '2rem',
+                        height: '20px',
+                        alignItems: 'center',
+                        justifyContent: 'space-between'
+                    }}>
+                        <Intermediary></Intermediary>
+                        <span aria-label="O meu nível com essa linguagem é básico" tabIndex={0}>Iniciante</span>
+                    </div>
+                </MainTechnologies>
             </section>
             
             <section id="beginner">
@@ -100,10 +113,9 @@ export function Technologies() {
                         <span aria-label="O meu nível com essa linguagem é básico" tabIndex={0}>Iniciante</span>
                     </div>
                 </MainTechnologies>
-
                 <MainTechnologies>
-                    <NameTechnologies tabIndex={0}>Python</NameTechnologies>
-                    
+                    <NameTechnologies tabIndex={0}>Selenium</NameTechnologies>
+                        
                     <div style={{
                         display: 'flex',
                         gap: '2rem',

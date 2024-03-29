@@ -48,16 +48,16 @@ export function Projects() {
 
                 <Project>
                     <ImageProject>
-                        <img tabIndex={0} src={todoImg} alt="" />
+                        <img tabIndex={0} src="" alt="" />
                     </ImageProject>
                     <InfoProject>
-                        <p tabIndex={0}>Todo</p>
-                        <span tabIndex={0}>Site feito para marcar novas tarefas. tecnologias usadas são React, Javascript, html, css, json server</span>
+                        <p tabIndex={0}>Automação Instagram</p>
+                        <span tabIndex={0}>Uma automação feitao com o Selenium, a função dela é dar like e comentar em todos os posts de uma pessoa no instagram</span>
                     </InfoProject>
                     <ButtonProjects>
                         <LiveButton disabled>Teste ao vivo</LiveButton>
 
-                        <a href="https://github.com/VictorDS87/Task-Indicator">
+                        <a href="https://github.com/VictorDS87/curtida_comentario_automatica_instragram_selenium">
                             <CheckButton tabIndex={-1}>Checar no Github</CheckButton>
                         </a>
                     </ButtonProjects>
