@@ -7,14 +7,14 @@ export function Summary() {
     
     return (
         <SummaryContainer id='summary' style={{backgroundImage: `url(${CircleImg}), url(${Circle2Img})`}}>
-            <div>
+            <div style={{width:'752px'}}>
                 <Introduction>
                     {/* separar em 3 o p para dar as 3 cores do gradient */}
                     <p tabIndex={0}>Olá, meu nome é Victor,</p> 
                     <p tabIndex={0}>sou um desenvolvedor fullstack</p>
                 </Introduction>
                 <Span>
-                    <span tabIndex={0}>Programador fullstack, com foco em front-end, buscando uma oportunidade de por meu conhecimento em prática</span>
+                    <span tabIndex={0}>Programador fullstack, com experiência na criação de diversos sites.</span>
                 </Span>
 
                 <Cv>

@@ -23,6 +23,7 @@ export function Header() {
                     <li><a href="#projects">Projetos</a></li>
                     <li><a href="#technologies">Tecnologicos</a></li>
                     <li><a href="#aboutme">Sobre mim</a></li>
+                    <li><a href="#services">Serviços</a></li>
                 </Routes>
 
                 <SocialMedia>

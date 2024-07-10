@@ -58,6 +58,7 @@ export function App() {
     <>
       <GlobalStyles />
       <Header />
+      <p style={{color:'red', fontSize:'4rem', position:'absolute', zIndex:5}}>Site em processo de atualização. Versão de 2022. Data prevista para nova versão: 31/07/2024</p>
       <OpacityEffect>{<Summary />}</OpacityEffect>
       <OpacityEffect>{<Projects />}</OpacityEffect>
       <OpacityEffect>{<Technologies /> }</OpacityEffect>
